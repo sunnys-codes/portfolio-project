@@ -7,9 +7,7 @@
   --secondary-font: "lexend", cursive;
   --background-color: #dfccc2;
 }
-* {
-  box-sizing: border-box;
-}
+
 
 html,
 body {
@@ -17,20 +15,20 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-body.index {
+body.sign {
         background: #dfccc2;
         background-repeat: no-repeat;
         background-position: center top;
     } 
-.work-html {
+.job {
     background: #dfccc2;
 }
 
-.contact-html {
+.connect {
     background: #dfccc2;
 }
 nav {
-  padding: 15px 0;
+  padding: 10px 0;
   color: var(--font-color);
 }
 nav h6 a {
