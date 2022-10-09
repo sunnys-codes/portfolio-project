@@ -148,7 +148,7 @@ nav li a:hover {
   .btn-branding:hover {
     color: var(--button-font-color);
   }
-  .vl {
+  .log {
     height: 100px;
     position: relative;
     left: 50%;
@@ -218,6 +218,10 @@ nav li a:hover {
   }
   footer .gather-link a {
     margin: 20px;
+    font-size: 16px;
+    color: #585858;
+    font-family: var(--secondary-font);
+
   }
   
   footer i {
