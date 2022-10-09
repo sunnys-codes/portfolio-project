@@ -50,10 +50,10 @@ nav li a {
   font-size: 18px;
   color: var(--font-color);
 }
-nav li.act a {
+nav li.play a {
   color: var(--button-color);
 }
-nav li.act a:hover {
+nav li.play:hover {
   color: var(--button-color);
 }
 
@@ -66,92 +66,76 @@ nav li a:hover {
     line-height: 25px;
     padding: 30px;
   }
-  .hero .container,
-  .projects .container,
-  .contact-container {
+  .girl .container,
+  .work .container,
+  .connect-container {
     padding: 120px 60px 20px;
   }
   
-  .hero img {
+  .girl img {
     width: 600px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .contact-container img {
+  .connect-container img {
     width: 550px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .hero-about {
+  .girl-about {
     padding: 100px 150px 40px;
     
   }
-  .contact-container .intouch {
+  .connect-container .intouch {
     padding: 80px 40px;
   }
-  .contact-container i {
+  .connect-container i {
     color: var(--font-color);
   }
-  .contact-container i:hover {
+  .connect-container i:hover {
     color: var(--font-color);
     background-color: transparent;
   }
-  .contact-container a {
+  .connect-container a {
     text-decoration: none;
     color: #5a5a5a;
   }
-  .contact-container .contact-link {
+  .connect-container .connect-link {
     font-size: 24px;
   }
   
-  .contact-container,
-  .hero h1 {
+  .connect-container,
+  .girl h1 {
     font-family: var(--main-font);
     font-size: 26px;
     line-height: 1.5;
     margin: 0;
   }
-  .hero .iam {
+  .girl .iam {
     font-family: var(--main-font);
     display: inline;
   }
-  .typewriter {
-    font-family: var(--main-font);
-    display: inline-block;
-    color: var(--font-color);
-  }
-  .typewriter-text {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 30px;
-    font-weight: 600;
-    border-right: 3px solid #f19ebc;
-   
-    color: var(--font-color);
-  }
 
-  .hero h2,
-  .projects h2,
-  .contact-container h2 {
+  .girl h2,
+  .work h2,
+  .connect-container h2 {
     font-family: var(--main-font);
     color: var(--font-color);
   }
   
-  .hero h6 {
+  .girl h6 {
     font-family: var(--main-font);
     color: gray;
   }
-  .hero .btn-branding {
+  .girl .btn-branding {
     margin-top: 10px;
   }
-  .hero .btn-branding,
-  .projects .btn-branding-outline,
-  .btn-branding.cat {
+  .girl .btn-branding,
+  .work .btn-branding-outline {
     background-color: var(--button-color);
     font-family: var(--secondary-font);
     margin: 0px;
@@ -161,7 +145,7 @@ nav li a:hover {
     line-height: 20px;
     padding: 12px 20px;
   }
-  .btn-branding.cat:hover {
+  .btn-branding:hover {
     color: var(--button-font-color);
   }
   .vl {
@@ -169,30 +153,27 @@ nav li a:hover {
     position: relative;
     left: 50%;
   }
-  .projects .row {
+  .work .row {
     background-color: #dfccc2;
     border-radius: 20px;
   }
   
-  .projects .weather {
+  .work .weather {
     width: 500px;
     height: auto;
   }
-  .projects .calculator {
-    width: 550px;
-    height: auto;
-  }
-  .projects p {
+
+  .work p {
     font-family: var(--main-font);
   }
-  .projects .project-description-right {
+  .work .work-description-right {
     display: block;
     padding-top: 100px;
     padding-right: 50px;
     padding-bottom: 100px;
     text-align: center;
   }
-  .projects .project-description-left {
+  .work .work-description-left {
     display: absolute;
     padding-top: 100px;
     padding-left: 50px;
@@ -200,7 +181,7 @@ nav li a:hover {
     padding-bottom: 100px;
   }
   
-  .content-container {
+  .ease-container {
     text-align: center;
     margin: 0 auto;
     width: 600px;
@@ -213,12 +194,12 @@ nav li a:hover {
     border-radius: 10px;
     background-color: #dfccc2;
   }
-  .content-container h1 {
+  .ease-container h1 {
     margin-bottom: 0;
     font-size: 26px;
   }
   
-  .content-container p {
+  .ease-container p {
     padding: 20px 50px;
   }
   footer {
@@ -226,16 +207,16 @@ nav li a:hover {
     text-align: center;
     padding: 50px;
   }
-  footer .email-link {
+  footer .mail-link {
     text-decoration: none;
     font-size: 16px;
     color: #585858;
     font-family: var(--secondary-font);
   }
-  footer .email-link:hover {
+  footer .mail-link:hover {
     color: var(--button-color);
   }
-  footer .social-link a {
+  footer .gather-link a {
     margin: 20px;
   }
   
@@ -261,32 +242,18 @@ nav li a:hover {
   footer img:hover {
     background-color: var(--button-color);
   }
-  .container.not404 {
-    padding: 120px 80px 120px;
-  }
-  img.cat {
-    width: 600px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .notfound {
-    padding: 100px 40px;
-    font-family: var(--main-font);
-    color: var(--font-color);
-  }
-  .container-404 h1,
-  .container-404 h2 {
+ 
+
+  h1,
+  h2 {
     margin: 0;
   }
-  .container-404 h1 {
+  h1 {
     font-size: 50px;
   }
   @media screen and (max-width: 659px) {
-    body.index,
-    body.contact-html {
+    body.sign,
+    body.connect {
       background-size: 400px;
     }
     nav {
@@ -299,50 +266,50 @@ nav li a:hover {
       line-height: 10px;
       padding: 10px;
     }
-    .hero {
+    .girl {
       background-color: var(--background-color);
     }
-    .hero .container {
+    .girl .container {
       padding: 40px 20px 20px;
     }
-    .hero-about {
+    .girl-about {
       padding: 100px 40px;
     }
-    .contact-container {
+    .connect-container {
       padding: 40px 10px 20px;
       text-align: center;
     }
-    .contact-container img {
+    .connect-container img {
       width: 400px !important;
       height: auto;
     }
   
-    .contact-container .intouch {
+    .connect-container .intouch {
       background-color: #dfccc2;
       margin-top: 30px;
       padding: 40px 30px 30px;
       border-radius: 20px;
     }
-    .contact-container .contact-link {
+    .connect-container .connect-link {
       font-size: 18px;
     }
-    .contact-container h3 {
+    .connectcontainer h3 {
       font-size: 22px;
     }
-    .hero h1,
-    .contact-container h1 {
+    .girl h1,
+    .connect-container h1 {
       text-align: center;
       font-size: 26px;
       line-height: 1;
       margin-top: 10px;
     }
-    .hero h2 {
+    .girl h2 {
       text-align: center;
     }
-    .content-container h1 {
+    .ease-container h1 {
       margin-bottom: 0;
     }
-    .content-container {
+    .ease-container {
       line-height: 1.8em;
       width: 330px !important;
       height: auto;
@@ -350,62 +317,42 @@ nav li a:hover {
       background-color: #dfccc2;
   
     }
-    .content-container p {
+    .ease-container p {
       padding: 10px 10px;
       font-size: 18px;
     }
   
-    .hero h6 {
+    .girl h6 {
       text-align: center;
       margin-top: 50px;
     }
-    .typewriter {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    .typewriter-text {
-      letter-spacing: 0.1em;
-      font-size: 30px;
-      font-weight: 500;
-    }
-    .hero .btn-branding {
+  
+    .girl .btn-branding {
       display: flex;
       justify-content: center;
       margin-top: 20px !important;
     }
-    .projects .row {
+    .work .row {
       background-color: #dadadada;
     }
-    .projects .project-description-right,
-    .projects .project-description-left {
+    .work .work-description-right,
+    .work .work-description-left {
       display: block;
       padding: 50px 20px;
       text-align: center;
     }
-    .projects .container {
+    .work .container {
       padding: 40px 40px 20px;
     }
-    .container.not404 {
-      padding: 60px 10px 20px;
-    }
-    img.cat {
-      width: 500px;
-      height: auto;
-    }
-  
-    .notfound {
-      padding: 40px 20px;
-      text-align: center;
-    }
-    .container-404 h1 {
+   
+    h1 {
       font-size: 20px !important;
     }
     footer {
       margin: 10px 0;
       padding: 20px;
     }
-    footer .email-link {
+    footer .mail-link {
       display: none;
     }
     footer i {
@@ -420,20 +367,20 @@ nav li a:hover {
     }
   }
   @media screen and (min-width: 660px) and (max-width: 1200px) {
-    body.index,
-    body.contact-html {
+    body.sign,
+    body.connect {
       background-size: 400px;
     }
-    .hero {
+    .girl {
       background-color: var(--background-color);
     }
-    .content-container {
+    .ease-container {
       width: 550px;
       height: auto;
       border-radius: 20px;
       background-color: #dfccc2;
     }
-    .projects .project-description-right {
+    .work .work-description-right {
       display: block;
       padding-top: 60px;
       padding-right: 40px;
@@ -441,27 +388,12 @@ nav li a:hover {
       padding-bottom: 30px;
       text-align: center;
     }
-    .projects .project-description-left {
+    .work .work-description-left {
       display: block;
       padding-top: 80px;
       padding-left: 40px;
       padding-right: 40px;
       padding-bottom: 30px;
       text-align: center;
-    }
-    .container.not404 {
-      padding: 150px 40px 20px;
-    }
-    img.cat {
-      width: 600px;
-      height: auto;
-    }
-  
-    .notfound {
-      padding: 100px 20px;
-      text-align: center;
-    }
-    .container-404 h1 {
-      font-size: 30px !important;
     }
   }
